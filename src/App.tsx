@@ -5,7 +5,7 @@ import LineupDetail from './pages/LineupDetail';
 
 const App: React.FC = () => {
   return (
-    <BrowserRouter basename="/cs2-nade-lineups">
+    <BrowserRouter basename="/cs2-tools">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/:side/:mapName" element={<LineupDetail />} />
