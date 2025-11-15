@@ -15,9 +15,9 @@
   gap: 8px;
   padding: 10px 20px;
   background: var(--bg-card);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 2px solid #A8C686;
   border-radius: 8px;
-  color: var(--text-primary);
+  color: #A8C686;
   font-size: 16px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -25,9 +25,10 @@
 }
 
 .back-button:hover {
-  background: rgba(255, 255, 255, 0.05);
-  border-color: rgba(255, 255, 255, 0.2);
+  background: rgba(168, 198, 134, 0.1);
+  border-color: #A8C686;
   transform: translateX(-4px);
+  box-shadow: 0 4px 12px rgba(168, 198, 134, 0.3);
 }
 
 .lineup-title-section {
@@ -41,7 +42,7 @@
   font-size: 48px;
   font-weight: 800;
   margin: 0;
-  color: var(--text-primary);
+  color: #A8C686;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -61,7 +62,7 @@
   background: var(--bg-card);
   border-radius: 12px;
   padding: 60px 40px;
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(168, 198, 134, 0.2);
 }
 
 .placeholder-message {
@@ -99,15 +100,15 @@
   padding: 20px;
   background: rgba(0, 0, 0, 0.3);
   border-radius: 8px;
-  border-left: 4px solid var(--ct-blue);
+  border-left: 4px solid #A8C686;
 }
 
 .placeholder-instructions code {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(168, 198, 134, 0.2);
   padding: 4px 8px;
   border-radius: 4px;
   font-family: 'Courier New', monospace;
-  color: #6aaddd;
+  color: #A8C686;
 }
 
 @media (max-width: 768px) {

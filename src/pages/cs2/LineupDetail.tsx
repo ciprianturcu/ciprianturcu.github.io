@@ -6,6 +6,8 @@ const LineupDetail: React.FC = () => {
   const { side, mapName } = useParams<{ side: string; mapName: string }>();
   const navigate = useNavigate();
 
+  console.log('LineupDetail rendered with:', { side, mapName });
+
   const getSideColor = () => {
     return side === 'ct' ? '#5c9ccc' : '#d97e3a';
   };
@@ -13,7 +15,7 @@ const LineupDetail: React.FC = () => {
   return (
     <div className="lineup-detail">
       <header className="lineup-header">
-        <button className="back-button" onClick={() => navigate('/')}>
+        <button className="back-button" onClick={() => navigate('/cs2-tools')}>
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
             <path d="M19 12H5M12 19l-7-7 7-7"/>
           </svg>

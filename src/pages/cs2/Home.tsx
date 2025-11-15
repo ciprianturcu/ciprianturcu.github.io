@@ -1,11 +1,11 @@
 import React from 'react';
-import MapCard from '../components/MapCard';
+import MapCard from '../../components/cs2/MapCard';
 import './Home.css';
 
 // Default CS2 competitive maps
 const maps = [
-  { name: 'Dust 2', image: 'https://placehold.co/800x450/1a1a1a/ffa500?text=Dust+2' },
-  { name: 'Mirage', image: 'https://placehold.co/800x450/1a1a1a/ffa500?text=Mirage' },
+  { name: 'Dust 2', image: '/images/mapThumbnail/dust2.png' },
+  { name: 'Mirage', image: '/images/mapThumbnail/mirage.png' },
   { name: 'Inferno', image: 'https://placehold.co/800x450/1a1a1a/ffa500?text=Inferno' },
   { name: 'Nuke', image: 'https://placehold.co/800x450/1a1a1a/ffa500?text=Nuke' },
   { name: 'Overpass', image: 'https://placehold.co/800x450/1a1a1a/ffa500?text=Overpass' },
@@ -19,7 +19,7 @@ const Home: React.FC = () => {
     <div className="home">
       <header className="home-header">
         <h1 className="home-title">CS2 Nade Lineups</h1>
-        <p className="home-subtitle">Master your smoke lineups for every map</p>
+        <p className="home-subtitle">Master your nade lineups for every map</p>
       </header>
 
       <div className="maps-grid">

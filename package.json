@@ -1,13 +1,13 @@
 {
-  "name": "cs2-nade-lineups",
+  "name": "ciprianturcu-portfolio",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && cp ../index.html ../dist/index.html",
+    "build": "vite build",
     "preview": "vite preview",
-    "deploy": "npm run build && gh-pages -d ../dist"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",

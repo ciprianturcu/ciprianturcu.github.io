@@ -11,7 +11,12 @@ const MapCard: React.FC<MapCardProps> = ({ mapName, imagePath }) => {
   const navigate = useNavigate();
 
   const handleSideClick = (side: 'ct' | 't') => {
-    navigate(`/${side}/${mapName.toLowerCase()}`);
+    console.log('Button clicked!', side, mapName);
+    const mapSlug = mapName.toLowerCase().replace(/\s+/g, '-');
+    const relativePath = `${side}/${mapSlug}`;
+    console.log('Current location:', window.location.pathname);
+    console.log('Navigating to (relative):', relativePath);
+    navigate(relativePath);
   };
 
   return (

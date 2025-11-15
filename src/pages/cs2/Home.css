@@ -14,7 +14,7 @@
   font-size: 56px;
   font-weight: 800;
   margin: 0 0 16px 0;
-  background: linear-gradient(135deg, #5c9ccc 0%, #d97e3a 100%);
+  background: linear-gradient(135deg, #A8C686 0%, #FF9F1C 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -24,7 +24,7 @@
 
 .home-subtitle {
   font-size: 20px;
-  color: var(--text-secondary);
+  color: #A8C686;
   margin: 0;
   font-weight: 400;
 }
